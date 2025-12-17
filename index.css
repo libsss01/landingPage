@@ -1,0 +1,308 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto';
+
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.first-section, .footer{
+    background-color: #1F2937;
+}
+
+.second-section, .fourth-section{
+    background-color: white;
+
+}
+
+.third-section{
+    background-color: #E5E7EB;
+}
+
+/* FIRST SECTION */
+.first-section{
+    width: 100%;
+    height: 420px;
+    padding: 10px;  
+    gap: 25px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.real-one-header{
+        width: 930px;
+        margin: auto;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.hero-l-sides{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 50%;
+}
+
+.hero-r-sides{
+  display: block;
+
+}
+
+.hero-r-sides img{
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.main-text-hero h4{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.second-text-hero, .header-links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: #E5E7EB;    
+}
+
+.header-links{
+    display: flex; 
+    flex-direction: row;
+    gap: 16px;
+}
+
+
+/* SECOND SECTION  */
+.second-section{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.snd-hero-text{
+    text-align: center;
+    padding: 25px;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.snd-hero-infos{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 70%;
+    gap: 10px;
+}
+
+#infoNumber1, #infoNumber2, #infoNumber3{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+#infoNumber1 .illustration{
+    border: 4px solid black;
+    border-radius: 10%;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#infoNumber2 .illustration{
+    border: 4px solid hsla(29, 100%, 50%, 0.932);
+    border-radius: 10%;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#infoNumber3 .illustration{
+      border: 4px solid hsla(204, 100%, 50%, 0.938);
+    border-radius: 10%;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.chatgpt-img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+
+}
+
+
+.claude-img{
+    width: 57%;
+    height: auto;
+    margin: auto;
+    display: block;
+
+}
+
+.gemini-img{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: block;
+
+}.subtext{
+    text-align: center;
+}
+
+/* THIRD SECTION */
+
+.third-section{
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.quotes{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    gap: 14px;
+    
+}
+.speech { 
+   font-size: 36px;
+    font-style: italic;
+    font-weight: 300px;
+}
+
+ .author-speech {
+    display: flex; 
+ justify-content: end;
+ font-weight: 700;  
+}
+
+
+/* FOURTH SECTION */
+
+.fourth-section{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    color: white;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    margin: auto;
+    width: 70%;
+    border-radius: 6px;
+    height: 50%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-Cta, .cta-button{
+    text-align:center;
+    margin: auto;
+}
+
+.text-Cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-Cta h6{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 500px;
+    font-size: 19px
+}
+
+.text-Cta p{
+    color: #F9FAF8;
+}
+.cta-button button{
+    padding: 5px 25px;
+    text-align: center;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.footer{
+    display:flex;
+    height: 80px;
+    width: 100%;
+    color: white;
+}  
+
+footer p{
+    margin: auto;
+}
+
+
+.button-hero button{
+    padding: 0 26px;
+    text-align: center;
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: white;
+    font-weight: 200;
+    border: none;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
