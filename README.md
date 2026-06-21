@@ -2,9 +2,9 @@
 
 Ce depot contient une landing page statique qui presente trois grands assistants IA et LLM : ChatGPT, Claude et Gemini. Le projet est construit en HTML et CSS pur, avec une structure simple en plusieurs sections.
 
-## Probleme resolu
+## But du Projet
 
-La page sert de mini vitrine pour expliquer rapidement l'interet des outils d'intelligence artificielle generative et comparer, de maniere introductive, quelques modeles populaires. C'est aussi un exercice pratique pour apprendre a construire une landing page : header, hero section, cartes d'information, citation, call-to-action et footer.
+Projet a titre d'apprentissage du developpement front-End avec les bases du developpement Wen (HTML,CSS). La page sert de mini vitrine pour expliquer rapidement l'interet des outils d'intelligence artificielle generative et comparer, de maniere introductive, quelques modeles populaires.
 
 ## Fonctionnalites
 
@@ -19,7 +19,6 @@ La page sert de mini vitrine pour expliquer rapidement l'interet des outils d'in
 
 - HTML5
 - CSS3
-- Google Fonts avec Roboto
 
 ## Structure du projet
 
@@ -46,7 +45,6 @@ git clone https://github.com/libsss01/landingPage.git
 
 2. Ouvrir `index.html` dans un navigateur.
 
-Pour un meilleur confort de developpement, vous pouvez aussi lancer la page avec Live Server dans VS Code.
 
 ## Contenu de la page
 
@@ -62,12 +60,11 @@ Le contenu de la page est editorial et peut etre mis a jour avec le temps, surto
 
 ## Pistes d'amelioration
 
-- Ajouter des media queries pour ameliorer l'affichage mobile.
+- Responsive design
 - Rendre les liens du header fonctionnels avec des ancres.
 - Ajouter des liens externes vers les pages officielles des outils presentes.
 - Ajouter un bouton CTA menant vers une ressource concrete.
 - Ajouter des balises meta SEO et Open Graph.
-- Revoir les textes pour corriger les fautes et clarifier le message.
 
 ## Auteur
 
